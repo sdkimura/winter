@@ -3,7 +3,7 @@
     font-size: 14px;
     color: #900;
     text-align: center;
-    padding: 20px;
+    padding: 0px;
     font-weight: bold;
 }
 
@@ -47,10 +47,9 @@ body {
 }
 
 body {
-    position: relative;
-    min-height: 100vh;
-    background-image: url("back2.jpg");
-    background-size: 100% auto;
+    background: rgb(228, 43, 43) url("back2.jpg") no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 body:after {
@@ -61,7 +60,7 @@ body:after {
 
 .main {
     text-align: center;
-    width: 850px;
+    width: 50vh;
     margin: 0 auto;
 }
 
@@ -295,7 +294,7 @@ body:after {
 .cap {
     width: 130px;
     height: 50px;
-    background: #ff0000;
+    background: #E74700;
     border-radius: 100px 0;
     position: relative;
     top: 50px;
@@ -443,6 +442,17 @@ body:after {
 .gift .ribbon:before {
     left: -30px;
     border-radius: 0 40px;
+}
+
+@media screen and ( max-width:479px) {
+    .gift.orange {
+        display: none;
+        /* 非表示にする */
+    }
+    .gift.orange:before {
+        display: none;
+        /* 非表示にする */
+    }
 }
 
 .gift.orange {
