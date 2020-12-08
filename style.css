@@ -1,10 +1,11 @@
 @charset "UTF-8";
 .naka {
     font-size: 14px;
-    color: #900;
+    color: rgb(255, 179, 80);
     text-align: center;
     padding: 0px;
     font-weight: bold;
+    text-shadow: 1px 2px 3px #808080;
 }
 
 audio {
