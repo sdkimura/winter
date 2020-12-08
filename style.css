@@ -452,15 +452,14 @@ body:after {
     border-radius: 0 40px;
 }
 
-@media screen and ( max-width:479px) {
-    .gift.orange {
-        display: none;
-        /* 非表示にする */
-    }
-    .gift.orange:before {
-        display: none;
-        /* 非表示にする */
-    }
+.gift.orange {
+    display: none;
+    /* 非表示にする */
+}
+
+.gift.orange:before {
+    display: none;
+    /* 非表示にする */
 }
 
 .gift.orange {
